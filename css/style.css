@@ -1,0 +1,265 @@
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+input,
+p {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 52.0833px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #fff;
+  font-size: 0.22rem;
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Tahoma, Arial, PingFangSC-Regular, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+  color: #3c3c3c;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('../font/font_uigx4ppuy9k/iconfont.eot?t=1534762084099');
+  src: url('../font/font_uigx4ppuy9k/iconfont.eot?t=1534762084099#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'), url('../font/font_uigx4ppuy9k/iconfont.ttf?t=1534762084099') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('../font/font_uigx4ppuy9k/iconfont.svg?t=1534762084099#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.icon-shouye,
+.icon-fenlei,
+.icon-icon01,
+.icon-wodexuanzhong {
+  font-family: 'iconfont';
+  font-style: normal;
+  color: #777;
+  font-size: .5rem;
+  display: block;
+}
+i.correct {
+  color: #ed5b00;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #ed5b00;
+}
+.mi_nav::-webkit-scrollbar {
+  height: 0;
+  background: transparent;
+}
+header {
+  width: 100%;
+  height: 15%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  background: #f2f2f2;
+}
+header .mi_search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60%;
+  background: #f2f2f2;
+  color: #666;
+}
+header .mi_search .mi_logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .mi_search .mi_logo .inner_logo {
+  width: 0.6rem;
+  margin: 0 0.2rem;
+}
+header .mi_search .mi_logo .inner_logo img {
+  width: 80%;
+}
+header .mi_search .mi_find {
+  flex: 5;
+  font-size: .3rem;
+  height: 50%;
+}
+header .mi_search .mi_find .inner_find {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: .04rem;
+  width: 100%;
+}
+header .mi_search .mi_find .inner_find i {
+  background: url("../images/search.png") no-repeat center;
+  background-size: 0.4rem;
+  width: .6rem;
+  height: .6rem;
+}
+header .mi_search .mi_user {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+header .mi_search .mi_user .inner_user {
+  width: .6rem;
+  margin: 0 .2rem;
+}
+header .mi_search .mi_user .inner_user i {
+  display: block;
+  background: url("../images/user.png") no-repeat center;
+  background-size: 0.4rem;
+  width: .6rem;
+  height: .6rem;
+}
+header .mi_nav {
+  overflow-x: auto;
+  background: #f2f2f2;
+  font-size: .26rem;
+  white-space: nowrap;
+  z-index: 2;
+  height: 40%;
+  display: flex;
+}
+header .mi_nav .nav_items {
+  height: 100%;
+  padding: 0 .2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+header .mi_nav .nav_items span {
+  color: #747474;
+  border-color: #f2f2f2;
+  line-height: .75rem;
+  border-bottom: 2px solid rgba(237, 91, 0, 0);
+}
+header .mi_nav .nav_items span.active {
+  color: #ed5b00;
+  border-bottom: 2px solid #ed5b00;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+section .inner_section {
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+section .inner_section .swiper-container {
+  position: relative;
+  width: 100%;
+  height: 65%;
+}
+section .inner_section .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+section .inner_section .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+section .inner_section .swiper-container .swiper-wrapper .swiper-slide img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+section .inner_section .mi_option {
+  position: absolute;
+  width: 100%;
+  height: 27%;
+  display: flex;
+  justify-content: space-between;
+}
+section .inner_section .mi_option a {
+  flex: 1;
+}
+section .inner_section .mi_option a img {
+  width: 100%;
+  height: 100%;
+}
+section .inner_section .mi_news {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+section .inner_section .mi_news .mi_hd {
+  flex: 1;
+  font-size: .29rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  border-right: 1px solid #ccc;
+}
+section .inner_section .mi_news .mi_hd a {
+  display: flex;
+  align-items: center;
+  color: #ed5b00;
+}
+section .inner_section .mi_news .mi_msg {
+  flex: 3.5;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+section .inner_section .mi_news .mi_msg p {
+  padding-left: .25rem;
+  color: #000;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px -1px #333333;
+}
+footer .mi_home,
+footer .mi_classify,
+footer .mi_shopCar,
+footer .mi_mine {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer .mi_home span,
+footer .mi_classify span,
+footer .mi_shopCar span,
+footer .mi_mine span {
+  display: block;
+}
